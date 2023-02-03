@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .coverImgbg{
+                width: 300;
+                height: 200;
+            }
+            .parent {
+                position: relative;
+                top: 0;
+                left: 0;
+                }
+            .image1 {
+                position: relative;
+                top: 0;
+                left: 0;
+                }
+            .image2 {
+                position: absolute;
+                top: 160px;
+                left: 620px;
+                margin-left: auto;
+                margin-right: auto;
+                }
+            h1{
+                font-family: system-ui;
+            }
+            hr{
+                border: 1px solid lightgray;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+            .contentPage{
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            .column {
+                float: left;
+                width: 50%;
+            }
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .box{
+                border: 3px lightgrey;
+                background-color: rgb(241, 239, 239);
+                width: 500px;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            body{
+                font-family: system-ui;
+                padding-bottom: 20px;
+                margin: auto;
+            }
+            .menu{
+                width: 100%;
+                height: 50px;
+                background-color: #333;
+                overflow: hidden;
+                position: fixed;
+                top: 0;
+            }
+            .menu a{
+                float: left;
+                text-align: center;
+                padding: 14px 16px;
+                font-size: 17px;
+                text-decoration: none;
+                cursor: pointer;
+                font-family: monospace;
+            }
+            .menu a.active{
+                
+                color: white;
+            }
+            .menu a:hover{
+                background-color: lightgray;
+                color: #333;
+            }
+            .boxFeed{
+                    border: 3px solid black;
+                    background-color: white;
+                    width: 750px;
+                    padding: 20px;
+                    border-radius: 5px;
+                    margin: auto;
+            }
+            .contentBoxFeed{  
+                width: 100%;
+            }
+            input{
+                width: 100%;
+                height: 30px;
+                padding: 12px 20px;
+                margin: 8px 0;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+            textarea{
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+            button{
+                width: 100%;
+                background-color: #1cca1c;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                cursor: pointer;
+                font-family: arial;
+                font-size: 15px;
+            }
+            button:hover{
+                opacity: 0.85;
+            }
+        </style>
+        
+        <div class="parent">
+            <img class="image1" style="width: 100%; height: 500px;" src="img/coverImg2.jpg">
+            <img class="image2" style="border-radius: 10px; height: 300px" src="img/pp.jpg">
+        </div>
+        <center>
+            <h1>ABDULLAH HADIF BIN NOR AZMAN</h1>
+        </center>
+    </head>
+
+    <body>
+        <center>
+            <hr>
+            <center><h2 style="color: gray;">ABOUT ME</h2></center>
+            <div class="row">
+                <div class="column" >
+                    <h3><b>AGE AND PASSION</b></h3>
+                    <div class="box">
+                        <div class="row">
+                            <div class="column">
+                                22 Years Old
+                            </div>
+                            <div class="column">
+                                Playing Table Tennis
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" >
+                    <h3><b>Languages</b></h3>
+                    <div class="box">
+                        Bahasa Malaysia and English
+                    </div>
+                </div>
+               </div>
+        </center>
+    
+        <center>
+            <br>
+            <h2 style="color: gray;">COMPUTER SKILLS</h2>
+    
+            <div class="row">
+                <div class="column" >
+                    <h3><b>PROGRAMMING LANGUAGES</b></h3>
+                    <div class="box">
+                        <div >
+                            <div class="row">
+                                <div class="column">
+                                    HTML<br><br>
+                                    CSS<br><br>
+                                    Angular: Typescript<br><br>
+                                    Javascript<br><br>
+                                    Java
+                                </div>
+                                <div class="column">
+                                    XML<br><br>
+                                    PHP<br><br>
+                                    Python<br><br>
+                                    SQL<br><br>
+                                    C++
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" >
+                    <h3><b>SOFTWARE</b></h3>
+                    <div class="box">
+                        <div class="row">
+                            <div class="column">
+                                Dev C++<br><br> 
+                                BlueJ<br><br> 
+                                Notepad++<br><br>
+                                Visual Studio<br><br>
+                                Netbean
+                            </div>
+                            <div class="column">
+                                Database : <br><br>
+                                SQL YOG<br><br>
+                                JSP Servers
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+        </center>
+           
+        <center>
+            <br>
+            <h2 style="color: gray;">EDUCATIONAL TRAINING</h2>
+    
+            <div class="row">
+                <div class="column" >
+                    <h3><b>UNIVERSITY</b></h3>
+                    <div class="box">
+                        Universiti Teknologi MARA Kuala Terengganu, Terengganu <br><br>
+                        <div class="row">
+                            <div class="column">
+                                Diploma in Computer Science<br><br>
+                                Enrolled since 2019 to 2022<br><br>
+                                CGPA : 3.52<br><br>
+                                Deans List for Semester 2, Semester 3 and Semester 4
+                            </div>
+                            <div class="column">
+                                Extra Curricular :<br><br>
+                                Join Pertandingan Kawad Kaki (PERKAD) in 2019<br><br>
+                                A member of Malaysia Freelancer Club 2019<br><br>
+                                A member of SISCOM Club 2019
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" >
+                    <h3><b>AREA OF KNOWLEDGE</b></h3>
+                    <div class="box">
+                        
+                        <div class="row">
+                            <div class="column">
+                                Fundamentals Of Multimedia Computing<br><br>
+                                Computer Graphics<br><br>
+                                Interactive Multimedia<br><br>
+                                Computer Security<br><br>
+                            </div>
+                            <div class="column">
+                                Digital Electronics<br><br>
+                                Discrete Structures<br><br>
+                                Principals Of Operating Systems<br><br>
+                                Information System<br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+
+               <br>
+                <h2 style="color: gray;">PAST PROJECTS</h2>
+
+               <div class="row">
+                <div>
+                    <h3><b>PERSONAL WEBSITE</b></h3>
+                    <div class="box">
+                        This is my personal website that I created for a project that was task by my lecturer in 2020. <br><br>
+                        <a href="https://abdullahhadif.github.io/abdullahhadif/" target="_blank">abdullahhadif.github.io/abdullahhadif/</a><br><br>
+                    </div>
+                </div>
+                
+               </div><br><br>
+
+        </center>
+    </body>
+</html>
